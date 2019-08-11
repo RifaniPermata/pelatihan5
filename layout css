@@ -1,0 +1,82 @@
+.judul{
+	letter-spacing:5px;
+	width: 850px;
+	margin: 20px auto;
+}
+ 
+/*bagian header*/
+.judul .header{
+	background: violet;
+	padding: 3px 12px;
+	text-align: center;
+}
+
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.judul .menu{
+	background: yellow;
+}
+ 
+.judul .menu ul{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: hidden;
+}
+ 
+.judul .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+.link{
+	display: flex;
+}
+.link a{
+	text-decoration: none;
+	display: block;
+}
+.link .active{
+	position: absolute;
+}
+.link .active li{
+	position: relative;
+	display: none;
+	background-color: white;
+}
+.link :hover > .active li{
+	display: inline-block;
+}
+/*akhir menu*/
+ 
+
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.judul .badan .sidebar{
+	background: red;
+	float: left;	
+	width: 25%;
+	height: 100%;
+	text-align: center;
+}
+ 
+/*akhir sidebar*/
+ 
+.judul .badan .content{
+	background: green;
+	float: right;
+	height: 100%;
+	width: 75%;
+	text-align: center;	
+}
+ 
+.judul .footer{
+	width: 810px;
+	padding: 20px;
+	background: aqua;
+	text-align: center;
+}
